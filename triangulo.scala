@@ -14,10 +14,10 @@
  *      espaços = n - i
  *
  *    - Na primeira linha (i = 1) → n - 1 espaços
- *    - Na última linha  (i = n) → 0 espaços
+ *    - Na última linha (i = n) → 0 espaços
  *
  * 2) Estrelas:
- *      estrelas = 2*i - 1
+ *      estrelas = 2 * i - 1
  *
  *    A quantidade de estrelas segue a sequência de números ímpares:
  *      1, 3, 5, 7, 9, ...
@@ -60,7 +60,7 @@
 def piramide(): Unit = {
 
   // Altura da pirâmide
-  val n = 6
+  val n:Int = 6
 
   // Loop principal: controla cada linha
   for (i <- 1 to n) {

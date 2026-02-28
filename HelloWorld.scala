@@ -14,30 +14,30 @@
  * compatível com a JVM.
  */
 
-@main
-def main(): Unit =
-
+/*@main
+def HelloWorld(): Unit =
+*/
   /**
    * Declaração de variável imutável.
    *
    * val → não pode ser reatribuída
    * : String → tipagem explícita (opcional)
-   */
+   
   val nome: String = "Caio"
-
+   */
   /**
    * Interpolação de string:
    *
    * O prefixo 's' permite inserir variáveis com $.
-   */
+   
   print(s"Olá, ${nome}\n")
-
+   */
   /**
    * println já adiciona quebra de linha automaticamente.
-   */
+   
   println("Hello world! Scala3")
 
-
+   */
 
 /**
  * =========================================================
